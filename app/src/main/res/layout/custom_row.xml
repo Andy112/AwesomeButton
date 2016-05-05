@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@drawable/custom_bg"
+    android:clickable="true">
+
+    <ImageView
+        android:id="@+id/list_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@android:drawable/ic_menu_camera"/>
+
+    <TextView
+        android:id="@+id/list_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="72dp"
+        android:textSize="16dp"
+        android:textColor="#616161"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:text="This is me"/>
+
+</RelativeLayout>

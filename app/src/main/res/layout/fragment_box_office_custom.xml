@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dp"
+    android:background="@color/colorDivider">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="8dp"
+        android:background="#ccc2a7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout">
+
+            <TextView
+                android:id="@+id/booking_idd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Booking ID:"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:layout_marginLeft="8dp"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:id="@+id/booking_id" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignStart="@+id/linearLayout">
+
+            <TextView
+                android:id="@+id/booking_faree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fare:"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:layout_marginLeft="8dp"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:id="@+id/booking_fare" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout2">
+
+            <TextView
+                android:id="@+id/booking_statuss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Booking Status:"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:layout_marginLeft="8dp"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:id="@+id/booking_status" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

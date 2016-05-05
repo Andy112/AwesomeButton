@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tab_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/position"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#ccc2a7"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="20sp"
+        android:text="We are on page 1"/>
+
+    <com.cepheuen.progresspageindicator.ProgressPageIndicator
+        android:id="@+id/pageIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:dotGap="2dp"
+        app:fillColor="#cccccc"
+        app:radius="8dp" />
+
+</LinearLayout>
+
